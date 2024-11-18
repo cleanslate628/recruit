@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<title>CleanSlate</title>
+<style>
+    
+    body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe4e2;
+            margin-top: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 70%;
+            margin-top: 1px;
+        }
+        
+        head22 {
+            font-size: 40px;
+            text-align: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 100px;
+        }
+        
+        h1 {
+            font-size: 40px;
+            text-align: left;
+        }
+        
+        p {
+            font-size: 15px;
+            text-align: left;
+        }
+        
+        h3 {
+            font-size: 24px;
+            text-align: left;
+        }
+        
+        h2 {
+            font-size: 24px;
+            text-align: center;
+        }
+        
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 1px;
+            margin-top: 1px;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea,
+        input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        
+        input[type="button"] {
+            background: #3c3433;
+            color: #fff;
+            border:#3c3433;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            display: block;
+            width: 100%;
+        }
+        
+        input[type="button"]:hover {
+            background: #3c3433;
+            border-color: #fff;
+        }
+    
+</style>
+</head>
+<body>
+    <section>
+        <div>
+            <h1 class="head22">Instructions and Requirements</h1>
+            <p>To apply for a position with CleanSlate, applicants must meet the following criteria: possess a South African ID, passport, or a valid work permit. Here's how to apply:</p>
+    
+            <h3>Step 1: Access the Job Application Form</h3>
+            <ul>
+                <li>Navigate to the bottom of the page.</li>
+                <li>Fill out all of the job application questions and upload your CV.</li>
+            </ul>
+    
+            <h3>Step 2: Complete the Payment</h3>
+            <ul>
+                <li>Proceed to "Payments" at the bottom of our home-page.</li>
+                <li>Pay the R60.00 once-off fee via EFT to our bank account. Remember to use your full names and surname as the reference.</li>
+                <li><strong>Note:</strong> Applications will not be processed until payment is completed.</li>
+            </ul>
+    
+            <h3>Step 3: Await Contact from Recruitment Agent</h3>
+            <ul>
+                <li>Once payment is confirmed, one of our recruitment agents will contact you regarding placement information.</li>
+            </ul>
+    
+            <h3>Step 4: Receive Your Training Manual</h3>
+            <ul>
+                <li>After your application is processed, you will receive your training manual via email.</li>
+            </ul>
+            <form>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required="">
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required="">
+    
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required="">
+    
+                <label for="position">Position Applied For:</label>
+                <input type="text" id="position" name="position" required="">
+    
+                <label for="coverletter">Cover Letter:</label>
+                <textarea id="coverletter" name="coverletter" rows="5" cols="50" required=""></textarea>
+    
+                <label for="cv">Upload CV (max 10MB):</label>
+                <input type="button" value="Upload" onclick="window.location.href='https://www.dropbox.com/request/2NTfnWdQ51c66tH1z2Ws';">
+            </form>
+        </div>
+  </section>
+  </body>
+</html>
